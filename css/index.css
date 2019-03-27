@@ -187,15 +187,40 @@ html {
   max-width: 1100px;
   margin: 0 auto;
 }
-.container .main-content h2 {
+.container .main-content .intro {
   display: flex;
   justify-content: center;
-  font-family: "Raleway", Helvetica, sans-serif;
-  font-size: 2rem;
-  font-weight: 600;
-  margin: 2% 2%;
+  padding: 3% 0;
+  border-bottom: 2px solid black;
 }
-.container .main-content p {
+.container .main-content .intro .intro-left-content {
   display: flex;
+  width: 49%;
   justify-content: center;
+  align-items: center;
+  padding: 2% 0;
+  border-right: 2px dotted black;
+}
+.container .main-content .intro .intro-left-content h2 {
+  font-size: 5em;
+  font-family: "Raleway", Helvetica, sans-serif;
+  font-weight: 600;
+}
+.container .main-content .intro .intro-right-content {
+  width: 49%;
+  border: 2px solid black;
+  margin: 2%;
+  border-radius: 5px;
+  background: lightgray;
+}
+.container .main-content .intro .intro-right-content p {
+  width: 90%;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 2% 0;
+  margin-left: 5%;
+  border-bottom: 2px solid gray;
+}
+.container .main-content .intro .intro-right-content p:last-child {
+  border-bottom: none;
 }
