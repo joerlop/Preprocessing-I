@@ -7,6 +7,8 @@
   <title>My Resume</title>
 
   <link rel="stylesheet" href="css/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro" rel="stylesheet">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -14,6 +16,64 @@
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <div class="container">
+
+    <div class="navigation-container">
+      <nav class="navigation">
+        <a href="#">HOME</a>
+        <a href="https://www.jonathanerlich.dev/">PORTFOLIO</a>
+        <a href="#contacto">CONTACT</a>
+      </nav>      
+    </div>
+    
+    <header>
+      <div class="header-left-content">
+        <h1>Jonathan<br> Erlich</h1>
+        <p>FULL STACK WEB DEVELOPER INTERESTED IN CRYPTO AND MACHINE LEARNING</p>
+      </div>
+        
+      <div class="header-right-content">
+        <img src="images/Title.jpg" alt="">
+      </div>
+    </header>
+
+    <div class="main-content">
+      
+      <div class="intro">
+        <div class="intro-left-content">
+          <h2>WORK<br> HISTORY</h2>
+        </div>
+        <div class="intro-right-content">
+          <p>Lorem</p>
+          <p>Lorem</p>
+          <p>Lorem</p>
+          <p>Lorem</p>
+          <p>Lorem</p> 
+        </div>
+      </div>
+    
+      <div class="contact" id="contacto">
+        <div class="contact-left-content">
+            <h2>GET IN TOUCH!</h2>
+        </div>
+          
+        <form class="contact-right-content">
+          <div class="fields">
+            <div class="field half">
+              <input type="text" name="name" id="name" placeholder="Name" />
+            </div>
+            <div class="field half">
+              <input type="email" name="email" id="email" placeholder="Email" />
+            </div>
+            <div class="field">
+              <textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+            </div>
+          </div>
+          <button>Send Message</button>
+        </form>
+      </div>
+    
+    </div>
+  </div>
 </body>
 </html>
